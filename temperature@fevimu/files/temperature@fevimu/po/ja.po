@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-15 23:44+0200\n"
+"PO-Revision-Date: 2022-12-04 01:42+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: applet.js:80 applet.js:159
+msgid "Temperature"
+msgstr "温度"
+
+#: applet.js:148
+msgid "Error"
+msgstr "エラー"
+
+#: applet.js:149
+msgid ""
+"Run sensors-detect as root. If it doesn't help, click here to report with "
+"your sensors output!"
+msgstr ""
+"root権限でsensors-detectを実行してください。解決しない場合、ここをクリック"
+"してセンサー出力とともに報告してください！"
+
+#: applet.js:151
+msgid "Warning"
+msgstr "警告"
+
+#: applet.js:152
+msgid ""
+"Please install lm_sensors. If it doesn't help, click here to report with "
+"your sensors output!"
+msgstr ""
+"lm_sensorsをインストールしてください。解決しない場合、ここをクリックしてセ"
+"ンサー出力とともに報告してください！"
+
+#: applet.js:224
+msgid "Thresholds Info"
+msgstr "閾値情報"
+
+#: applet.js:225
+msgid "High Temp"
+msgstr "高温"
+
+#: applet.js:226
+msgid "Crit. Temp"
+msgstr "危険"
+
+#: applet.js:237
+msgid "Critical"
+msgstr "危険"
+
+#: applet.js:240
+msgid "High"
+msgstr "高温"
+
+#: applet.js:253
+msgid "Current Temperature"
+msgstr "現在温度"
+
+#: applet.js:255
+msgid "Critical Temperature"
+msgstr "危険温度"
+
+#. metadata.json->name
+msgid "CPU Temperature Indicator"
+msgstr "CPU Temperature Indicator"
+
+#. metadata.json->description
+msgid "Shows CPU Temperature"
+msgstr "CPU温度を表示"
+
+#. settings-schema.json->use-fahrenheit->description
+msgid "Show temperature in Fahrenheit"
+msgstr "華氏温度（°F）で表示"
+
+#. settings-schema.json->only-integer-part->description
+msgid "Use integer values for temperature"
+msgstr "温度を整数値で表示"
+
+#. settings-schema.json->show-unit->description
+msgid "Show unit"
+msgstr "単位を表示"
+
+#. settings-schema.json->show-unit->tooltip
+msgid "Whether or not show the unit after the temperature value."
+msgstr "温度の後ろに単位を表記するかどうか。"
+
+#. settings-schema.json->show-unit-letter->description
+msgid "Show unit letter"
+msgstr "単位の文字を表示"
+
+#. settings-schema.json->show-unit-letter->tooltip
+msgid "Whether or not show the unit letter (C or F)."
+msgstr "単位の文字（CかF）を表示するかどうか。"
+
+#. settings-schema.json->show-label-prefix->description
+msgid "Show label prefix"
+msgstr "先頭にラベルを追加"
+
+#. settings-schema.json->show-label-prefix->tooltip
+msgid "Whether or not to add a label before the temperature value."
+msgstr "温度の数値の前にラベルを追加するかどうか。"
+
+#. settings-schema.json->label-prefix->description
+msgid "Label prefix"
+msgstr "追加するラベル"
+
+#. settings-schema.json->label-prefix->tooltip
+msgid "The label to be shown before the temperature value."
+msgstr "温度の前に追加されるラベル。"
+
+#. settings-schema.json->interval->units
+msgid "ms"
+msgstr "ms"
+
+#. settings-schema.json->interval->description
+msgid "Update interval"
+msgstr "更新頻度"
+
+#. settings-schema.json->change-color->description
+msgid "Change color when the temperature becomes High or Critical"
+msgstr "温度が高温・危険になったら色を変化"
+
+#. settings-schema.json->change-color->tooltip
+msgid ""
+"Selecting this option, this applet becomes\n"
+" orange when the High Temperature Threshold is reached,\n"
+" red when the Critical Temperature Threshold is reached."
+msgstr ""
+"有効にすると、このアプレットの色が変化します。\n"
+"高温の閾値に達したらオレンジ色に、\n"
+"危険の閾値に達したら赤色になります。"
+
+#. settings-schema.json->only-colors->description
+msgid "Only use colors to alert me"
+msgstr "温度警告は色のみで行う"
+
+#. settings-schema.json->only-colors->tooltip
+msgid ""
+"Select this option to not display text alerts in horizontal panels.\n"
+"(No text alert is ever displayed on vertical panels.)"
+msgstr ""
+"有効にすると、水平パネル内ではテキストによる警告を行いません。\n"
+"（垂直パネルでは警告テキストは一切表示されません。）"
